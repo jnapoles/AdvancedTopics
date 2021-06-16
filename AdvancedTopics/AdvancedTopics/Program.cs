@@ -536,7 +536,7 @@ namespace AdvancedTopics
 
             Console.WriteLine(42.ToBinary());
 
-            Person p = ("Jorge Luis", 22).ToPerson();
+            Person1 p = ("Jorge Luis", 22).ToPerson();
             Console.WriteLine(p);
 
             Console.WriteLine(Tuple.Create(12, "hello").Measure());
